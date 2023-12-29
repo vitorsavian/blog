@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dungeons and Dragons</title>
+  <script src="https://unpkg.com/htmx.org/dist/htmx.js"></script>
+</head>
+<body>
+  <h1>Welcome to Dungeons and Dragons</h1>
+  <button hx-get="/api/data" hx-target="#content">Load Data</button>
+  <div id="content"></div>
+</body>
+</html>
