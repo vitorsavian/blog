@@ -1,4 +1,7 @@
 build-bahamut:
 	@echo "Building Bahamut..."
-	# using this as a workaround
 	cd ./bahamut && go build -o ./dist/bahamut && cd ..
+
+bahamut: build-bahamut
+	@echo "Running Bahamut..."
+	./bahamut/dist/bahamut http
