@@ -7,7 +7,7 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"github.com/vitorsavian/dandd/dm/pkg/server"
+	"github.com/vitorsavian/dandd/bahamut/pkg/server"
 )
 
 // httpCmd represents the http command

@@ -1,4 +1,4 @@
-module github.com/vitorsavian/dandd/dm
+module github.com/vitorsavian/dandd/bahamut
 
 go 1.21.4
 
